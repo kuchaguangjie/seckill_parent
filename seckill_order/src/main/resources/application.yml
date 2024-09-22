@@ -5,9 +5,9 @@ spring:
     name: seckill-order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.2.105:3306/seckill?characterEncoding=utf-8
+    url: jdbc:mysql://127.0.0.1:3306/seckill?characterEncoding=utf-8
     username: root
-    password: root
+    password: 123456
   redis:
     host: 192.168.2.105
     timeout: 10000ms #redis请求超时时间，超过此值redis自动断开连接
